@@ -50,8 +50,8 @@ repo_trophies:
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
-posts_in_search: true
+socials_in_search: false
+posts_in_search: false
 bib_search: true
 
 # Dimensions
@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: blog # blog_name will be displayed in your blog page
+blog_name: # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -192,6 +192,18 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _news/announcement_*.md
+  - _pages/blog.md
+  - _pages/dropdown.md
+  - _pages/cv.md
+  - _pages/news.md
+  - _pages/projects.md
+  - _pages/teaching.md
+  - _pages/books.md
+  - _pages/profiles.md
+  - _posts/
+  - _projects/?_project.md
+  - assets/jupyter/blog.ipynb
 keep_files:
   - CNAME
   - .nojekyll
